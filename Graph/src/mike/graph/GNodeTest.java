@@ -45,6 +45,5 @@ public class GNodeTest {
 		System.out.println("\nPath list from node: A");
 		System.out.println(A.paths(A));
 
-
 	}
 }

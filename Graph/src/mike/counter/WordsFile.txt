@@ -1,0 +1,7 @@
+1. Create a survey with the last question configured so "Repeat Once after Timeout" checkbox checked. Default survey structure.
+2. Take the survey.  Let the last question to timeout. 
+3. Validate Timeout is played.
+4. Validate Intro and QuestionResponse are played again.
+5. Do not enter any answer. Let it to timeout again.
+6. Validate Timeout is NOT played, and SurveyClose played.
+7. Validate DB results (question is timedout, min and max correct, number of questions is correct - not counted twice)
